@@ -11,7 +11,7 @@
 
 <?php
 
-require_once './db_connect.php';
+require_once './db_connect_darbuotojai.php';
 
 echo "<table style='border: solid 1px black;'>";
 
