@@ -1,19 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SP2</title>
     <link rel="stylesheet" href="./css/border">
     <link rel="stylesheet" href="./css/prevnext">
 </head>
 <body>
-    
+
 <?php
 
-require_once './db_connect_projektai.php';
+require_once './db_connect.php';
 
 echo "<table style='border: solid 1px black;'>";
+
 
 
 class TableRows extends RecursiveIteratorIterator {
@@ -39,10 +40,7 @@ class TableRows extends RecursiveIteratorIterator {
 <br>
 <br>
 
-<a href="./index.php" class="previous">&laquo; Darbuotojai</a>
-
-<br>
-<br>
+<a href="./index2.php" class="next">Projektai &raquo;</a>
 
 </body>
 </html>
